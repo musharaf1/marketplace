@@ -74,7 +74,6 @@ class _MyHomePageState extends State<MyHomePage> {
                                       Container(
                                         width:
                                             MediaQuery.of(context).size.width,
-                                        // margin: EdgeInsets.symmetric(horizontal: 5.0),
                                         decoration: BoxDecoration(
                                           color: Colors.grey,
                                           image: DecorationImage(
@@ -143,10 +142,10 @@ class _MyHomePageState extends State<MyHomePage> {
                               autoPlay: true,
                               enlargeCenterPage: true,
                               aspectRatio: 2 / 3,
-                              autoPlayCurve: Curves.fastOutSlowIn,
+                              autoPlayCurve: Curves.easeIn,
                               enableInfiniteScroll: true,
                               autoPlayAnimationDuration:
-                                  const Duration(milliseconds: 800),
+                                  const Duration(milliseconds: 300),
                               viewportFraction: 1,
                               onPageChanged: (index, reason) {
                                 setState(() {

@@ -9,22 +9,21 @@ final List<CarouselOption> carouselOptions = [
     description: "80% OFF",
     subtitle: "Discover fashion that suits\nto your style",
     backgroundImage:
-        "https://img.freepik.com/free-photo/top-view-arrangement-with-beauty-bag-copy-space_23-2148301851.jpg?w=1380&t=st=1685433118~exp=1685433718~hmac=d91157df2e26efb60d542218950fdb697fae7a6850c412e2ba8e673a111cc36e",
+        'https://img.freepik.com/free-photo/clothing-rack-with-floral-hawaiian-shirts-hangers-hat_23-2149366018.jpg?w=2000&t=st=1685804505~exp=1685805105~hmac=4499bf89020e377f7fc70d5b766c89c166acb982fe9cb79c8014c9cd3e83858a',
     backgroundColor: AppColors.kCarouselGrey,
   ),
   CarouselOption(
-    title: "#BEAUTYSALE",
-    description: "DISCOVER OUR\nBEAUTY SELECTION",
-    backgroundColor: Colors.brown.shade600,
-    backgroundImage:
-        "https://img.freepik.com/free-photo/vanity-case-with-products-arrangement_23-2149879969.jpg?w=2000&t=st=1685432989~exp=1685433589~hmac=c7cbd9fcda631815f7844c569c20c7c34bc9c2e4a7c626c3cc5fcc6d8e798e9d",
-  ),
+      title: "#BEAUTYSALE",
+      description: "DISCOVER OUR\nBEAUTY SELECTION",
+      backgroundColor: Colors.brown.shade600,
+      backgroundImage:
+          "https://img.freepik.com/free-photo/shirt-mockup-concept-with-plain-clothing_23-2149448749.jpg?w=2000&t=st=1685804890~exp=1685805490~hmac=fba4bb2306fbb4f62d36ed8679e3be09d0b0f372463adccdbf29e2db95a8d13f"),
   CarouselOption(
     title: "#FASHION DAY",
     description: "80% OFF",
     subtitle: "Discover fashion that suits\nto your style",
     backgroundImage:
-        "https://img.freepik.com/free-photo/top-view-arrangement-with-beauty-bag-copy-space_23-2148301851.jpg?w=1380&t=st=1685433118~exp=1685433718~hmac=d91157df2e26efb60d542218950fdb697fae7a6850c412e2ba8e673a111cc36e",
+        "https://img.freepik.com/free-photo/clothing-rack-with-hawaiian-shirts-with-floral-print_23-2149366012.jpg?w=2000&t=st=1685805025~exp=1685805625~hmac=47478fb762783cf559f6ecf1b6e7c3c3ee3149643e285e35d403e84b2f459077",
     backgroundColor: AppColors.kCarouselGrey,
   ),
 ];
